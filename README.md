@@ -13,6 +13,11 @@ and backend reliability.
 | [CSR, SSR, SSG, and ISR in Next.js](docs/03-nextjs-rendering-patterns.md) | Rendering lifecycles, hydration, caching, revalidation, and choosing patterns per route |
 | [Event-driven architecture](docs/04-event-driven-architecture.md) | Push/pull ingestion, scheduled jobs, queues, streams, delivery guarantees, ordering, and recovery |
 | [State management and composition patterns](docs/05-state-management-and-composition.md) | State ownership, reducers, Context, Redux, server-state caching, reusable components, and enterprise React architecture |
+| [Accessibility](docs/06-accessibility.md) | WCAG, semantic HTML, keyboard navigation, forms, focus management, and accessible React testing |
+| [Performance](docs/07-performance.md) | Core Web Vitals, profiling, network and rendering optimization, performance budgets, and production monitoring |
+| [Security](docs/08-security.md) | Trust boundaries, XSS, CSRF, authorization, sessions, dependencies, and secure frontend design |
+| [CI/CD for non-functional requirements](docs/09-cicd-nfrs.md) | Measurable quality gates, accessibility/performance/security checks, safe releases, SLOs, and rollback |
+| [SPA, MPA, and hybrid architectures](docs/10-spa-mpa-hybrid.md) | Navigation and rendering models, trade-offs, architecture selection, and incremental migration |
 
 ## How to study
 
