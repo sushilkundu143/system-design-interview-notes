@@ -98,6 +98,9 @@ Persist necessary state in IndexedDB or another appropriate storage mechanism.
 
 ## 3. Service worker versus other browser features
 
+For computation and UI responsiveness, read the separate
+[Web Worker guide](12-web-workers.md).
+
 | Feature | Main job | Example |
 | --- | --- | --- |
 | Service worker | Handle network/background events for controlled clients | Offline help page |
