@@ -15,6 +15,7 @@ and backend reliability.
 | [Browser caching](docs/02c-browser-caching.md) | HTTP freshness and validation, ETags, service workers, React data caches, secure logout, deployments, and detailed interview questions |
 | [Service workers](docs/11-service-workers.md) | Simple explanations of lifecycle, scope, offline caching, updates, push, background sync, security, debugging, and 50 interview questions |
 | [Web workers](docs/12-web-workers.md) | Main-thread performance, worker types, messages, transferable data, cancellation, React integration, debugging, and 50 interview questions |
+| [Debounce and throttle](docs/13-debounce-and-throttle.md) | Simple timing examples, use cases, implementations, React cleanup, request races, testing, and 25 interview questions |
 | [CSR, SSR, SSG, and ISR in Next.js](docs/03-nextjs-rendering-patterns.md) | Rendering lifecycles, hydration, caching, revalidation, and choosing patterns per route |
 | [Event-driven architecture](docs/04-event-driven-architecture.md) | Push/pull ingestion, scheduled jobs, queues, streams, delivery guarantees, ordering, and recovery |
 | [State management and composition patterns](docs/05-state-management-and-composition.md) | State ownership, reducers, Context, Redux, server-state caching, reusable components, and enterprise React architecture |
