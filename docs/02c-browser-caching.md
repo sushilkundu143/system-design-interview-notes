@@ -222,6 +222,9 @@ A library's `staleTime` is not an HTTP `max-age` header.
 
 ## 9. Service workers and offline caching
 
+For a full walkthrough and interview practice, read the separate
+[Service Worker guide](11-service-workers.md).
+
 A service worker is application code that can intercept requests.
 It can return responses saved in **Cache Storage**.
 

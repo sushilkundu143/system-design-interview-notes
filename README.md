@@ -13,6 +13,7 @@ and backend reliability.
 | [Redis application caching](docs/02a-redis-caching.md) | Cache-aside, write races, stampedes, eviction, clustering, failover, observability, and detailed interview questions |
 | [CDN caching](docs/02b-cdn-caching.md) | Edge request lifecycles, cache keys, HTTP policies, purging, origin protection, private content, and detailed interview questions |
 | [Browser caching](docs/02c-browser-caching.md) | HTTP freshness and validation, ETags, service workers, React data caches, secure logout, deployments, and detailed interview questions |
+| [Service workers](docs/11-service-workers.md) | Simple explanations of lifecycle, scope, offline caching, updates, push, background sync, security, debugging, and 50 interview questions |
 | [CSR, SSR, SSG, and ISR in Next.js](docs/03-nextjs-rendering-patterns.md) | Rendering lifecycles, hydration, caching, revalidation, and choosing patterns per route |
 | [Event-driven architecture](docs/04-event-driven-architecture.md) | Push/pull ingestion, scheduled jobs, queues, streams, delivery guarantees, ordering, and recovery |
 | [State management and composition patterns](docs/05-state-management-and-composition.md) | State ownership, reducers, Context, Redux, server-state caching, reusable components, and enterprise React architecture |
