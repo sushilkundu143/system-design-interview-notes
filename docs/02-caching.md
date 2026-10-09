@@ -1,5 +1,21 @@
 # CDN, Redis, and Browser Caching
 
+## Separate deep-dive guides
+
+Use this document as the cross-layer overview. Each topic now has its own
+detailed guide with implementation examples, failure scenarios, and interview
+questions with answer guidance:
+
+1. [Redis application caching](02a-redis-caching.md): backend caching patterns,
+   consistency races, stampede prevention, memory management, clustering, and recovery.
+2. [CDN caching](02b-cdn-caching.md): edge behavior, cache keys, HTTP policies,
+   invalidation, deployment safety, and origin protection.
+3. [Browser caching](02c-browser-caching.md): freshness and validation, browser
+   storage distinctions, service workers, React data caching, and logout safety.
+
+Recommended order: browser caching, CDN caching, then Redis. Finally, return to
+this overview to explain how the layers interact.
+
 ## 1. Mental model
 
 A cache stores a reusable copy of data or a response. It trades freshness and
